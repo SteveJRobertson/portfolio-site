@@ -34,18 +34,20 @@ const Navigation = () => {
           id="navbar-main"
         >
           <Container>
-            <NavbarBrand href="/" className="mr-lg-5">
-              <h2 className="display-1 text-white" id="nav-title">
-                {greetings.name}
-              </h2>
-            </NavbarBrand>
-            <button
-              className="navbar-toggler"
-              aria-label="navbar_toggle"
-              id="navbar_global"
-            >
-              <span className="navbar-toggler-icon" />
-            </button>
+            <div className="d-flex align-items-center" style={{flex: 1}}>
+              <NavbarBrand href="/" className="mr-lg-5" style={{flex: 1}}>
+                <h2 className="text-white" id="nav-title" style={{marginBottom: 0}}>
+                  {greetings.name}
+                </h2>
+              </NavbarBrand>
+              <button
+                className="navbar-toggler"
+                aria-label="navbar_toggle"
+                id="navbar_global"
+              >
+                <span className="navbar-toggler-icon" />
+              </button>
+            </div>
             <UncontrolledCollapse
               toggler="#navbar_global"
               navbar

@@ -1,11 +1,11 @@
 import emoji from 'react-easy-emoji';
 import {
-  // EducationType,
+  EducationType,
   ExperienceType,
-  // FeedbackType,
-  // ProjectType,
+  FeedbackType,
+  ProjectType,
   SkillsSectionType,
-  // SkillBarsType,
+  SkillBarsType,
   SEODataType,
   SocialLinksType,
   GreetingsType,
@@ -113,45 +113,45 @@ export const skillsSection: SkillsSectionType = {
   ],
 };
 
-// export const SkillBars: SkillBarsType[] = [
-//   {
-//     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-//     progressPercentage: '90', //Insert relative proficiency in percentage
-//   },
-//   {
-//     Stack: 'Backend',
-//     progressPercentage: '70',
-//   },
-//   {
-//     Stack: 'Programming',
-//     progressPercentage: '60',
-//   },
-// ];
+export const SkillBars: SkillBarsType[] = [
+  {
+    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
+    progressPercentage: '90', //Insert relative proficiency in percentage
+  },
+  {
+    Stack: 'Backend',
+    progressPercentage: '70',
+  },
+  {
+    Stack: 'Programming',
+    progressPercentage: '60',
+  },
+];
 
-// export const educationInfo: EducationType[] = [
-//   {
-//     schoolName: 'Napier University',
-//     subHeader: 'BSc Multimedia Technology',
-//     duration: '2007 - 2008',
-//     desc: '',
-//     grade: 'Grade A',
-//     descBullets: [
-//       'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-//       'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-//     ],
-//   },
-//   {
-//     schoolName: 'Edinburgh\'s Telford College',
-//     subHeader: 'HND Software Development',
-//     duration: '2005 - 2007',
-//     desc: '',
-//     grade: 'Grade A',
-//     descBullets: [
-//       'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-//       'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-//     ],
-//   },
-// ];
+export const educationInfo: EducationType[] = [
+  {
+    schoolName: 'Napier University',
+    subHeader: 'BSc Multimedia Technology',
+    duration: '2007 - 2008',
+    desc: '',
+    grade: 'Grade A',
+    descBullets: [
+      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    ],
+  },
+  {
+    schoolName: 'Edinburgh\'s Telford College',
+    subHeader: 'HND Software Development',
+    duration: '2005 - 2007',
+    desc: '',
+    grade: 'Grade A',
+    descBullets: [
+      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+    ],
+  },
+];
 
 export const experience: ExperienceType[] = [
   {
@@ -204,42 +204,42 @@ export const experience: ExperienceType[] = [
   },
 ];
 
-// export const projects: ProjectType[] = [
-//   {
-//     name: 'developer-portfolio',
-//     desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-//     github: 'https://github.com/1hanzla100/developer-portfolio',
-//     link: 'https://developer-portfolio-1hanzla100.vercel.app/',
-//   },
-//   {
-//     name: 'AtlasMart',
-//     desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-//     github: 'https://github.com/1hanzla100/Django-React-Marketplace',
-//   },
-//   {
-//     name: 'Technota (Forum)',
-//     desc: 'Get hands-on experience in technical skills with Technota',
-//     github: 'https://github.com/1hanzla100/django-react-forum',
-//   },
-//   {
-//     name: 'Shopaza (Ecommerce)',
-//     desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-//     github: 'https://github.com/1hanzla100/Django-ecommerce',
-//   },
-// ];
+export const projects: ProjectType[] = [
+  {
+    name: 'developer-portfolio',
+    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
+    github: 'https://github.com/1hanzla100/developer-portfolio',
+    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+  },
+  {
+    name: 'AtlasMart',
+    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
+    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+  },
+  {
+    name: 'Technota (Forum)',
+    desc: 'Get hands-on experience in technical skills with Technota',
+    github: 'https://github.com/1hanzla100/django-react-forum',
+  },
+  {
+    name: 'Shopaza (Ecommerce)',
+    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
+    github: 'https://github.com/1hanzla100/Django-ecommerce',
+  },
+];
 
-// export const feedbacks: FeedbackType[] = [
-//   {
-//     name: 'John Smith',
-//     feedback:
-//       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-//   },
-//   {
-//     name: 'John Smith',
-//     feedback:
-//       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-//   },
-// ];
+export const feedbacks: FeedbackType[] = [
+  {
+    name: 'John Smith',
+    feedback:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+  },
+  {
+    name: 'John Smith',
+    feedback:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+  },
+];
 
 // option to hide or show the ContactUs component
 export const showContactUs: boolean = false;

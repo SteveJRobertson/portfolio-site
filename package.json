@@ -1,9 +1,9 @@
 {
-  "name": "stevejrobertson.github.io",
+  "name": "portfolio-site",
   "version": "1.0.0",
   "description": "Portfolio website for Steve Robertson",
   "main": "index.js",
-  "repository": "https://github.com/steverobertson/steverobertson.github.io.git",
+  "repository": "https://github.com/steverobertson/portfolio-site.git",
   "author": "Steve Robertson",
   "license": "MIT",
   "scripts": {
@@ -25,6 +25,7 @@
     "moment": "^2.29.1",
     "next": "^13.2.1",
     "nouislider": "^15.2.0",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-datetime": "^3.0.4",
     "react-dom": "^18.2.0",

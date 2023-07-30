@@ -20,7 +20,7 @@
 
 #nav-title {
 	font-family: 'Arvo', sans-serif;
-	font-size: 4rem;
+	font-size: 2rem;
 	font-weight: 700;
 }
 
@@ -613,6 +613,10 @@ pre code {
 	.container {
 		max-width: 540px;
 	}
+
+	#nav-title {
+		font-size: 4rem;
+	}
 }
 @media (min-width: 768px) {
 	.container {
@@ -628,6 +632,11 @@ pre code {
 	.container {
 		max-width: 1200px;
 	}
+}
+
+.flex-1 {
+	flex: 1 1 auto;
+	width: 100%;
 }
 
 .container-fluid {
