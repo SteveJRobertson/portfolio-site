@@ -14,6 +14,7 @@ import { openSource, showContactUs } from '../portfolio';
 import SEO from '../components/SEO';
 import Contact from '../components/ContactUs';
 import { GithubUserType } from '../types';
+import lato from '../fonts/Lato';
 
 export default function Home({
   githubProfileData,
@@ -21,7 +22,7 @@ export default function Home({
   githubProfileData: any;
 }) {
   return (
-    <div>
+    <div className={lato.className}>
       <SEO />
       <Navigation />
       <Greetings />
