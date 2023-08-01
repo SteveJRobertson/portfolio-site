@@ -13,7 +13,7 @@ import {
 
 export const greetings: GreetingsType = {
   name: 'Steve Robertson',
-  title: 'Contract front-end developer, based in Edinburgh, Scotland',
+  title: 'Contract front-end developer based in Edinburgh, Scotland',
   description:
     "Hi, I'm Steve. I specialise in creating robust web applications and reusable component libraries using React and TypeScript. My expertise spans HTML, CSS, JavaScript, NodeJS, Git and continuous integration and deployment tools such as Jest and CircleCI.",
 };
@@ -41,22 +41,22 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/frontend.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Work with UX design teams to create reusable design systems and component libraries'
+          '⚡ Work with UX design teams to create reusable design systems and component libraries.'
         ),
         emoji(
-          '⚡ Apply best practices and design patterns to create robust, scalable and maintainable codebases'
+          '⚡ Apply best practices and design patterns to create robust, scalable and maintainable codebases.'
         ),
         emoji(
-          '⚡ Develop technical solutions to business requirements, ensuring high quality and performance'
+          '⚡ Develop technical solutions to business requirements, ensuring high quality and performance.'
         ),
         emoji(
-          '⚡ Stremaline development processes, improving efficiency through the use of automation tools'
+          '⚡ Streamline development processes, improving efficiency through the use of automation tools.'
         ),
         emoji(
-          '⚡ Listen to and understand the needs of stakeholders, helping to shape the technical direction of the team'
+          '⚡ Listen to and understand the needs of stakeholders, helping to shape the team\'s technical direction.'
         ),
         emoji(
-          '⚡ Provide technical support, guidance and mentorship to other team members'
+          '⚡ Provide technical support, guidance and mentorship to other team members.'
         ),
       ],
       softwareSkills: [
@@ -159,7 +159,7 @@ export const experience: ExperienceType[] = [
     company: 'Wood Mackenzie (Contract)',
     companyLogo: '/img/icons/common/woodmac-logo.png',
     date: 'Dec 2019 – Present',
-    desc: "I was hired to develop Wood Mackenzie's internal UI component library, providing reusability across the client's suite of customer-facing applications. Demonstrating strong technical skills, teamwork, and stakeholder collaboration, I've consistently delivered valuable results.",
+    desc: 'Wood Mackenzie hired me to develop an internal UI component library, providing reusability across the client\'s suite of customer-facing applications. Demonstrating strong technical skills, teamwork, and stakeholder collaboration, I\'ve consistently delivered valuable results.',
   },
   {
     role: 'UI Developer',
@@ -167,18 +167,14 @@ export const experience: ExperienceType[] = [
     companyLogo: '/img/icons/common/royal-bank-of-scotland-logo.png',
     backgroundColor: '#3C1053',
     date: 'Sep 2018 - Nov 2019',
-    desc: "I played a key role in developing an internal application for the bank's GDPR compliance using React and Redux. Collaborating closely with stakeholders, I ensured timely delivery, provided technical support, and contributed to secure and responsible customer data handling.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    desc: "I was key in developing an internal application for the bank's GDPR compliance using React and Redux. Collaborating closely with stakeholders, I ensured timely delivery, provided technical support, and contributed to secure and responsible customer data handling.",
   },
   {
     role: 'Web Developer',
     company: 'Aegon (Contract)',
     companyLogo: '/img/icons/common/aegon-logo.svg',
     date: 'Apr 2017 - Aug 2018',
-    desc: "I was involved in developing Aegon's latest customer-facing pensions dashboard. Leveraging HTML, CSS, and JavaScript, I crafted an intuitive, compliant interface, collaborating with legal, compliance, marketing, and UX stakeholders.",
+    desc: "I was involved in developing Aegon's latest customer-facing pensions dashboard. Leveraging HTML, CSS, and JavaScript, I crafted an intuitive interface, collaborating with legal, compliance, marketing, and UX stakeholders.",
   },
   {
     role: 'Web Developer',
