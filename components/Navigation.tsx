@@ -12,7 +12,7 @@ import {
   Row,
   Col,
 } from 'reactstrap';
-import arvo from 'fonts/Arvo';
+import arvo from '../fonts/Arvo';
 
 const Navigation = () => {
   const [collapseClasses, setCollapseClasses] = useState('');
