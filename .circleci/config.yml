@@ -8,14 +8,18 @@ orbs:
 # See: https://circleci.com/docs/configuration-reference/#jobs
 jobs:
   build:
-    executor: node/default
+    executor:
+      name: node/default
+      tag: '16'
     steps:
       - checkout
       - node/install-packages:
-          pkg-manager: yarn
+          check-cache: always
+          pkg-manager: yarn-berry
+          with-cache: false
       - run:
-          name: "Build the project"
-          command: "next build"
+          command: yarn build
+          name: Run yarn build
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
