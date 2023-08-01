@@ -12,6 +12,7 @@ import {
   Row,
   Col,
 } from 'reactstrap';
+import arvo from 'fonts/Arvo';
 
 const Navigation = () => {
   const [collapseClasses, setCollapseClasses] = useState('');
@@ -36,7 +37,7 @@ const Navigation = () => {
           <Container>
             <div className="d-flex align-items-center" style={{flex: 1}}>
               <NavbarBrand href="/" className="mr-lg-5" style={{flex: 1}}>
-                <h2 className="text-white" id="nav-title" style={{marginBottom: 0}}>
+                <h2 className={`text-white ${arvo.className}`} id="nav-title" style={{marginBottom: 0}}>
                   {greetings.name}
                 </h2>
               </NavbarBrand>
