@@ -243,10 +243,10 @@ export const showContactUs: boolean = false;
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
   title: 'Steve Robertson',
-  description: 'Front end wev developer',
+  description: 'Front end UI web developer',
   author: 'Steve Robertson',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://sr.digital',
+  image: 'https://avatars.githubusercontent.com/u/4548086?v=4',
+  url: 'https://steverobertson.dev',
   keywords: [
     'Steve',
     'Steve Robertson',
