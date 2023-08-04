@@ -2456,6 +2456,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vercel/analytics@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@vercel/analytics@npm:1.0.1"
+  checksum: 6876e1d0868e85198d43a17ffec7266cdee5a53d5fc797d3f7e0d64e9d76a2ade3cbdcbc0a665e2ee2389f65dfc80591f7d667e9fc981cdbaa848006cbaefe19
+  languageName: node
+  linkType: hard
+
 "@webassemblyjs/ast@npm:1.7.11":
   version: 1.7.11
   resolution: "@webassemblyjs/ast@npm:1.7.11"
@@ -12427,6 +12434,7 @@ __metadata:
     "@types/node": ^18.14.1
     "@types/react": ^18.0.28
     "@types/react-lottie": ^1.2.6
+    "@vercel/analytics": ^1.0.1
     bootstrap: ^5.0.2
     classnames: ^2.3.1
     eslint: 7.32.0
